@@ -1,0 +1,318 @@
+/* SELECTOR UNIVERSAL */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color:  rgb(146, 96, 35, 0.618);
+}
+nav  ul li a{
+    color:  rgb(146, 96, 35, 0.618); 
+    text-decoration: none; 
+    font-size: 20px; 
+    list-style: none;
+}
+    .menu{
+        background-color: rgb(235, 230, 223);
+        padding: 1px 30px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        /*flexbox*/
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar-brand img{
+        width: 85px;
+     }
+    ul{
+        list-style: none;
+    }
+    /*hover*/
+    .menu ul li a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    .header img{
+        width: 100%;
+    }
+    .actions button{
+        width: 70px;
+    }
+.sobre_nosotros{
+    background-color: rgb(235, 230, 223);
+    text-align: center;
+    font-size: 20px;
+}
+.tortas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 50px;
+}
+.tortas img{
+    width: 100%;
+}
+ .productos{
+     border: 1px solid black;
+     width: 30%;
+     margin-bottom: 30px;
+     padding: 20px 20px;
+    
+} 
+.productos h3{
+    color: rgba(146, 96, 35, 0.618);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: rgb(235, 230, 223);
+    color: rgba(146, 96, 35, 0.618);
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logos_contacto img{
+    width: 50px;
+    /*flexbox*/
+    display: flex;
+}
+.promos_del_mes{
+    display: grid;
+    text-align: center;
+    border: 1px solid  rgba(146, 96, 35, 0.618);
+    width: 20%;
+    margin-bottom: 30px;
+    padding-right: 10px;
+    
+}
+.promos th{
+    color: rgba(146, 96, 35, 0.618);
+}
+.promos{
+    display: flex;
+    
+}
+.store .filters{
+    padding: 0 20px 30px 30px;
+}
+.store .filters{
+    grid-area: filters;
+    font-size: 1.3em;
+    margin-bottom: 4px;
+}
+.store .filters a{
+    color: rgb(230, 214, 196);
+    text-decoration: none;
+}
+.store .filters a:hover{
+    color: rgb(146, 96, 35, 0.618);
+}
+.store .filters span{
+    display: block;
+    color:  rgba(146, 96, 35, 0.618);
+    margin: 10px 0;
+    letter-spacing: 1px
+
+}
+.store .filters select{
+    color: rgb(146, 96, 35, 0.618);
+    border: none;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+.store .filters ul{
+    padding-left: 10px;
+    list-style: none;
+}
+.store{
+    display: grid;
+    grid-template-columns: 23% repeat(2,1fr);
+    grid-template-rows: 300px repeat(3,300px);
+    grid-template-areas: 
+    "filters prod1 prod2"
+    "filters prod3 prod4"
+    "filters prod5 prod6"
+    "filters prod7 prod8";
+}
+.store img{
+    width: 120px;
+}
+.store .actions{
+    padding: 0 40px;
+    grid-area: actions;
+}
+.store .filters{
+    grid-area: filters;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.categorias{
+    color: rgb(235, 230, 223);
+}
+.store .prod{
+    margin-top: 10px;
+   
+}
+
+.store .prod1 {
+    grid-area: prod1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(251, 242, 230);
+}
+.store .prod1 h3{
+    color: rgba(146, 96, 35, 0.618);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.store .prod2 {
+    grid-area: prod2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(251, 242, 230);
+}
+.store .prod2 h3{
+    color: rgba(146, 96, 35, 0.618);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.store .prod3 {
+    grid-area: prod3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(251, 242, 230);
+}
+.store .prod3 h3{
+    color: rgba(146, 96, 35, 0.618);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.store .prod4 {
+    grid-area: prod4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(251, 242, 230);
+}
+.store .prod4 h3{
+    color: rgba(146, 96, 35, 0.618);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.store .prod5 {
+    grid-area: prod5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(251, 242, 230);
+}
+.store .prod5 h3{
+    color: rgba(146, 96, 35, 0.618);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.store .prod6 {
+    grid-area: prod6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(251, 242, 230);
+}
+.store .prod6 h3{
+    color: rgba(146, 96, 35, 0.618);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.store .prod7 {
+    grid-area: prod7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(251, 242, 230);
+}
+.store .prod7 h3{
+    color: rgba(146, 96, 35, 0.618);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.store .prod8 {
+    grid-area: prod8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(251, 242, 230);
+}
+.store .prod8 h3{
+    color: rgba(146, 96, 35, 0.618);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+/* responsive*/
+@media (width < 992px){
+    .tortas figure.productos{
+        width: 44%;
+
+    }
+
+
+.store{
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "filters" 
+    "prod1" 
+    "prod2"
+    "prod3" 
+    "prod4"
+    "prod5" 
+    "prod6"
+    "prod7" 
+    "prod8";
+}
+}
+@media (width < 768px){
+    .tortas figure.productos{
+        width: 100%;
+
+    }
+
+}
+.titulo{
+    color: rgb(146, 96, 35, 0.618);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+   
+
+
+
+
+
+
+
