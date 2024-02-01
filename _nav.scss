@@ -1,0 +1,31 @@
+//nav - menu
+@mixin flex($dire,$justy,$align,$wh, $pd, $pst){
+    display: flex;
+    flex-direction: $dire;
+    justify-content: $justy;
+    align-items: $align;
+    width: $wh;
+    padding: $pd;
+    position: $pst
+}
+.menu{
+    @include flex(row, space-between, center, 100%, 1px 30px, sticky);
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,219,168,1) 100%);
+    ul li a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+        ul{
+        list-style: none;
+    }
+        ul li a{
+        color: $secondarycolor; 
+        text-decoration: none; 
+        font-size: 20px; 
+        list-style: none;
+    }
+}
+.navbar-brand img{
+    width: 85px;
+ }
