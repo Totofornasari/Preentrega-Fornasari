@@ -1,0 +1,128 @@
+/* SELECTOR UNIVERSAL */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color:  rgb(146, 96, 35, 0.618);
+    font-family: 'Times New Roman', Times, serif;
+}
+nav  ul li a{
+    color:  rgb(146, 96, 35, 0.618); 
+    text-decoration: none; 
+    font-size: 20px; 
+    list-style: none;
+}
+    .menu{
+        background: rgb(255,255,255);
+        background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,219,168,1) 100%);
+        padding: 1px 30px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        /*flexbox*/
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar-brand img{
+        width: 85px;
+     }
+    ul{
+        list-style: none;
+    }
+    /*hover*/
+    .menu ul li a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    .transform :hover{
+        transform: translateY(-10px);
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    .header img{
+        width: 100%;
+    }
+
+
+.sobre_nosotros{
+    background-color: rgb(235, 230, 223);
+    text-align: center;
+    font-size: 20px;
+}
+.nosotros{
+    margin: 10%;
+    
+}
+.sobre_nos{
+    color: rgba(146, 96, 35, 0.618);
+    text-align: center;
+   
+}
+.como_funcionamos{
+    color: rgba(146, 96, 35, 0.618);
+    text-align: center;
+}
+
+.footer{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,219,168,1) 100%);
+}
+.logos_contacto img{
+    width: 50px;
+    /*flexbox*/
+    display: flex;
+}
+.promos_del_mes{
+    display: grid;
+    text-align: center;
+    border: 1px solid  rgba(146, 96, 35, 0.618);
+    width: 20%;
+    margin-bottom: 2%;
+    padding-right: 10px;
+    
+}
+.promos th{
+    color: rgba(146, 96, 35, 0.618);
+}
+.promos{
+    display: flex;
+    margin-bottom: 20%;
+}
+.prom-titulo{
+    color: rgb(146, 96, 35, 0.618);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5%;
+    text-align: center;
+}
+/* responsive*/
+@media (width < 992px){
+    .tortas figure.productos{
+        width: 44%;
+
+    }
+
+
+}
+@media (width < 768px){
+    .tortas figure.productos{
+        width: 100%;
+
+    }
+
+}
+
+
+   
+
+
+
+
+
+
+

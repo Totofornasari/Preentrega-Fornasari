@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header img {
+  width: 100%;
+}
+
+h1,
+h2 {
+  color: rgba(146, 96, 35, 0.618);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.titulo {
+  color: rgba(146, 96, 35, 0.618);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.titulo2 {
+  color: rgba(146, 96, 35, 0.618);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sobre_nosotros {
+  background-color: rgb(235, 230, 223);
+  text-align: center;
+  font-size: 20px;
+}
+
+.nosotros {
+  margin: 10%;
+}
+
+.sobre_nos {
+  color: rgba(146, 96, 35, 0.618);
+  text-align: center;
+}
+
+.como_funcionamos {
+  color: rgba(146, 96, 35, 0.618);
+  text-align: center;
+}
+
+.tortas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px 50px;
+}
+
+.tortas img {
+  width: 100%;
+}
+
+.productos {
+  border: 1px solid black;
+  width: 30%;
+  margin-bottom: 30px;
+  padding: 20px 20px;
+}
+.productos h3 {
+  color: rgba(146, 96, 35, 0.618);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.promos_del_mes {
+  display: grid;
+  text-align: center;
+  border: 1px solid rgba(146, 96, 35, 0.618);
+  width: 20%;
+  margin-bottom: 2%;
+  padding-right: 10px;
+}
+
+.promos {
+  display: flex;
+  margin-bottom: 20%;
+}
+.promos th {
+  color: rgba(146, 96, 35, 0.618);
+}
+
+.prom-titulo {
+  color: rgba(146, 96, 35, 0.618);
+  font-family: "Times New Roman", Times, serif;
+  margin: 5%;
+  text-align: center;
+}
+
+footer {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 219, 168) 100%);
+  color: rgba(146, 96, 35, 0.618);
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media (width < 992px) {
+  .tortas figure.productos {
+    width: 44%;
+  }
+}
+@media (width < 768px) {
+  .tortas figure.productos {
+    width: 100%;
+  }
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1px 30px;
+  position: sticky;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 219, 168) 100%);
+}
+.menu ul li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+.menu ul {
+  list-style: none;
+}
+.menu ul li a {
+  color: rgba(146, 96, 35, 0.618);
+  text-decoration: none;
+  font-size: 20px;
+  list-style: none;
+}
+
+.navbar-brand img {
+  width: 85px;
+}
+
+/*# sourceMappingURL=main.css.map */
